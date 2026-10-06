@@ -1,1 +1,47 @@
+# Creating and Operating on DICTIONARY -
 
+Agents = {1:"Tejo", 2:"Phoenix", 3:"Yoru", 4:"Chamber"}
+# 1. Adding an element to Agents
+Agents[5]="Reyna"
+print(Agents)
+# 2. Updating an element in Agents
+Agents[3]="Waylay"
+print(Agents)
+# 3. Deleting an element in Agents
+del Agents[4]
+print(Agents)
+# 4. Deleting an element from it's index
+Agents.pop(2)
+print(Agents)
+
+# Creating a TUPLE -
+
+Fruit = ("Apple","Banana","Orange","Guava")
+## TUPLES ARE IMMUTABLE
+
+#Creating and Operating on LISTS - 
+
+List = ["Sonu","Monu","Soham","Mrigesh"]
+# 1. Adding element to list
+List.append("Mohan")
+print(List)
+
+# 2. Adding multiple elements to a list
+List.extend(["Sakshi","Anjali"])
+print(List)
+
+# 3. Updating an element in a list
+List[3]= "Michael"
+print(List)
+
+# 4. Deleting an element from the list (Remove function will accept the element given inside the list)
+List.remove("Monu")
+print(List)
+
+# 5. Deleting a specific element in list via Indexing
+List.pop(0)      # Giving no value to Pop will make it remove the last element from the list
+print(List)
+
+# 6. Reversing a list
+List.reverse()
+print(List)
